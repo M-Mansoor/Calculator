@@ -1,0 +1,52 @@
+body{
+    background-color: lemonchiffon;
+}
+
+.h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+}
+
+.casio{
+    margin-top: 0.001px;
+    margin-bottom: 3px;
+    text-align: center;
+    color: darkblue; 
+}
+
+.main{
+    border: 2px solid gray;
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.result{
+    width: 96%;
+    background-color: lightgray;
+    color: black;
+
+}
+
+.clearBtn{
+    width: 60px;
+    margin-top: 10px;
+    background-color:black;
+    color: red;
+}
+
+.btn{
+    background-color: black;
+    width: 50px;
+    margin: 4.5px;
+    color:#fff;
+    font-weight: bold;
+}
+
+.offBtn,.onBtn{
+    width: 57px;
+    margin-top: 10px;
+    background-color:orange;
+    color: green;
+}

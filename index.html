@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="h1"> <u> CALCULATOR </u>  </h1>
+    <div class="main">
+
+
+  
+    <div>   
+        <p class="casio">Casio</p>
+    <input id="result"  class="result" type="text">
+    </div>
+
+    <div>
+        <button class="clearBtn" onclick="clearResult()">C</button>
+        <button class="clearBtn" onclick="clearResult()">AC</button>
+        <button class="onBtn" onclick="showZero()" >ON</button>
+        <button class="offBtn" onclick="clearResult()">OFF</button>
+    </div>
+    
+    <div>
+        <button class="btn" onclick="getNum('7')">7</button>
+        <button class="btn" onclick="getNum('8')">8</button>
+        <button class="btn" onclick="getNum('9')">9</button>
+        <button class="btn" onclick="getNum('X')">X</button>
+    </div>
+
+    <div>
+        <button class="btn" onclick="getNum('4')">4</button>
+        <button class="btn" onclick="getNum('5')">5</button>
+        <button class="btn" onclick="getNum('6')">6</button>
+        <button class="btn" onclick="getNum('/')">/</button>
+    </div>
+
+    <div>
+        <button class="btn" onclick="getNum('1')">1</button>
+        <button class="btn" onclick="getNum('2')">2</button>
+        <button class="btn" onclick="getNum('3')">3</button>
+        <button class="btn" onclick="getNum('+')">+</button>
+    </div>
+
+    <div>
+        <button class="btn" onclick="getNum('0')">0</button>
+        <button class="btn" onclick="getNum('.')">.</button>
+        <button class="btn" onclick="getResult()">=</button>
+        <button class="btn" onclick="getNum('-')">-</button>
+    </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
